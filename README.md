@@ -57,7 +57,7 @@ There are no builds for this project, you just install the dependencies and run 
 
 # Development
 
-> This is a tutorial designed for people looking to contribute to, or work directly with the installer's source code. If you are just looking to download and install BetterDiscord, visit the [releases](https://github.com/BetterDiscord/installer/releases/) page of this repository.
+> This is a tutorial designed for people looking to contribute to, or work directly with the installer's source code. If you are just looking to download and install BetterDiscord, visit the [releases](https://github.com/OCsonic/installer/releases/) page of this repository.
 
 ## Prerequisites
 - [Git](https://git-scm.com)
@@ -105,6 +105,6 @@ yarn dist
 
 For information on contributing to this project, please see [CONTRIBUTING.md](/CONTRIBUTING.md).
 
-<a href="https://github.com/betterdiscord/installer/graphs/contributors">
+<a href="https://github.com/ocsibuc/installer/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=betterdiscord/installer" />
 </a>
