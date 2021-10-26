@@ -6,12 +6,12 @@ import {shell} from "electron";
 import {progress} from "../../stores/installation";
 import {log} from "./log";
 
-const platforms = {stable: "Discord", ptb: "Discord PTB", canary: "Discord Canary"};
+const platforms = {stable: "Discord", ptb: "Discord PTB", canary: "Discord Canary", development: "Discord Development"};
 export default async function killProcesses(channels, progressPerLoop, shouldRestart = true) {
     for (const channel of channels) {
         let processName = platforms[channel];
-        if (process.platform === "darwin") processName = platforms[channel]; // Discord Canary and Discord PTB on Mac
-        else processName = platforms[channel].replace(" ", ""); // DiscordCanary and DiscordPTB on Windows/Linux
+        if (process.platform === "darwin") processName = platforms[channel]; // Discord Canary, Discord Dev, and Discord PTB on Mac
+        else processName = platforms[channel].replace(" ", ""); // DiscordCanary, DiscordDev, and DiscordPTB on Windows/Linux
 
         log("Attempting to kill " + processName);
         try {

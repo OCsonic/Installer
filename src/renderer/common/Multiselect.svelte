@@ -41,7 +41,7 @@
         align-items: center;
         border-radius: 3px;
         background-color: var(--bg3);
-        padding: 12px;
+        padding: 4px;
         user-select: none;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         cursor: pointer;

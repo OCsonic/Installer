@@ -37,7 +37,7 @@ async function deleteAppDirs(paths) {
     }
 }
 
-const platforms = {stable: "Discord", ptb: "Discord PTB", canary: "Discord Canary"};
+const platforms = {stable: "Discord", ptb: "Discord PTB", canary: "Discord Canary", development: "Discord Development"};
 async function deleteModuleDirs(config) {
     const size = Object.keys(config).length;
     const progressPerLoop = (DELETE_MODULE_DIRS_PROGRESS - progress.value) / size;
