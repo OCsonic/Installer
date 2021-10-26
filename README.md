@@ -47,7 +47,7 @@ There are no builds for this project, Please refer to the building section.
 
 ### 1: Clone the repository.
 ```ps
-git clone https://github.com/BetterDiscord/installer && cd installer
+git clone https://github.com/OCsonic/installer && cd installer
 ```
 This will create a local copy of this repository and navigate you to the root folder of the repository.
 
