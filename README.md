@@ -31,29 +31,7 @@ This repository contains the source code for the BetterDiscord installer. This i
 
 ## Downloads
 
-There are no builds for this project, you just install the dependencies and run 'yarn dev' to run the installer.
-
-
-## Codebase
-
-```
-.
-├──assets                  // Contains static assets (such as images) used by the installer.
-|  └──images               // Images (logos, backgrounds, etc...) used by the installer.
-├──scripts                 // Scripts needed for development and contributing.
-└──src                     // The installer's source code.
-    ├──main                // Electron "main" process. Creates and configures the BrowserWindow.
-    └──renderer            // Electron "renderer" process. Contains most components and scripts.
-        ├──actions         // Scripts performed by the installer such as installing, repairing and uninstalling.
-        |  └──utils        // Common utilities used by installer actions (such as killing discord).
-        ├──common          // Common UI components such as buttons, checkboxes, radios, etc...
-        ├──pages           // Component files for each page in the installer's setup process.
-        ├──stores          // Svelte store used for storing global data.
-        |  └──types        // Used for defining custom svelte stores.
-        └──transitions     // Contains custom Svelte transitions and animations.
-```
-
----
+There are no builds for this project, Please refer to the building section.
 
 # Development
 
@@ -84,22 +62,6 @@ To run the installer in development mode, simply run the following command:
 ```ps
 yarn dev
 ```
-
-## Additional Scripts
-
-### Linting
-This project uses [ESLint](https://eslint.org/). Run this command to lint your changes:
-```ps
-yarn lint
-```
-
-### Compiling & Distribution
-
-```ps
-yarn dist
-```
-
----
 
 # Contributors
 
