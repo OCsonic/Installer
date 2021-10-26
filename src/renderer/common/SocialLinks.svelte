@@ -2,7 +2,7 @@
     import { tooltip } from "./tooltip";
     
     const webUrl = "https://betterdiscord.app";
-    const githubUrl = "http://github.com/BetterDiscord/BetterDiscord";
+    const githubUrl = "http://github.com/OCsonic/BetterDiscord";
     const donateUrl = "https://www.patreon.com/Zerebos";
 </script>
 
