@@ -31,7 +31,7 @@ This repository contains the source code for the BetterDiscord installer. This i
 
 ## Downloads
 
-There are no builds for this project, you just install the dependincies and run 'yarn dev' to run the installer.
+There are no builds for this project, you just install the dependencies and run 'yarn dev' to run the installer.
 
 
 ## Codebase
