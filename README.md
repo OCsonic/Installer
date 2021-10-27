@@ -33,6 +33,11 @@ This repository contains the source code for the BetterDiscord installer. This i
 
 There are no builds for this project, Please refer to the building section.
 
+For discord Development downloads go here:
+Windows: https://discord.com/api/download/development?platform=win
+Linux: https://discord.com/api/download/development?platform=linux
+macOS: https://discord.com/api/download/development?platform=osx
+
 # Development
 
 > This is a tutorial designed for people looking to contribute to, or work directly with the installer's source code. If you are just looking to download and install BetterDiscord, visit the [releases](https://github.com/OCsonic/installer/releases/) page of this repository.
