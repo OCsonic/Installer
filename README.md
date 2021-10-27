@@ -34,9 +34,7 @@ This repository contains the source code for the BetterDiscord installer. This i
 There are no builds for this project, Please refer to the building section.
 
 For discord Development downloads go here:
-[Windows](https://discord.com/api/download/development?platform=win)
-[Linux](https://discord.com/api/download/development?platform=linux)
-[OSX](https://discord.com/api/download/development?platform=osx)
+[Windows](https://discord.com/api/download/development?platform=win), [Linux](https://discord.com/api/download/development?platform=linux), and [OSX](https://discord.com/api/download/development?platform=osx).
 
 # Development
 
